@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Card</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="imgBx">
+                    <img id="shoeImg" src="assets/rickMelo2.png" alt="rickMelo">
+                </div>
+                <div class="contentBx">
+                    <h2>Puma MB.01</h2>
+                    <div class="size">
+                        <h3>Size: </h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                    </div>
+                    <div class="color">
+                        <h3>Color: </h3>
+                        <span onclick="toggleColor('black')"></span>
+                        <span onclick="toggleColor('orange')"></span>
+                        <span onclick="toggleColor('purple')"></span>
+                        <span onclick="toggleColor('rickAndMorty')"></span>
+                    </div>
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    function toggleColor(option){
+        let color = Array.from(document.getElementsByClassName('color'))[0]
+        let black = Array.from(color.children)[1]
+        let orange = Array.from(color.children)[2]
+        let purple = Array.from(color.children)[3]
+        let rickAndMorty = Array.from(color.children)[4]
+        if (option=="black"){
+            let shoeImg = document.getElementById('shoeImg')
+            shoeImg.setAttribute('src', 'assets/blackMelo.png')
+            let circleCard = window.getComputedStyle(document.querySelector('.card'), ':before')
+            console.log(circleCard.background)
+        }
+    }
+</script>
