@@ -1,6 +1,6 @@
 # shoesCard
 <div align="center">
- <a href="https://ojordany.github.io/MySpotifyPlaylist/" alt='next'><img align=""src="https://cdn.discordapp.com/attachments/897609680073941012/963207775045971988/pngwing-edit.png" alt="clique-cursor" width="100px"></a>
+ <a href="https://ojordany.github.io/shoesCard/" alt='next'><img align=""src="https://cdn.discordapp.com/attachments/897609680073941012/963207775045971988/pngwing-edit.png" alt="clique-cursor" width="100px"></a>
  <h2>Click here to view my playlist</h2>
 </div>
 
