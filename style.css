@@ -175,7 +175,7 @@ body
 }
 .container .card .contentBx .color span:nth-child(5)
 {
-    background: #D7F952; 
+    background: linear-gradient(45deg, #D7F952, #D7F952 49%, transparent 49%, transparent 51%, #E5553C 51%);
 }
 .container .card .contentBx a
 {

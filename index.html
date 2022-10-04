@@ -43,8 +43,42 @@
         if (option=="black"){
             let shoeImg = document.getElementById('shoeImg')
             shoeImg.setAttribute('src', 'assets/blackMelo.png')
-            let circleCard = window.getComputedStyle(document.querySelector('.card'), ':before')
-            console.log(circleCard.background)
+            /* Circle Card */
+            let circleCardHover = document.styleSheets[0].rules[5]
+            circleCardHover.style.background = "#60979B"
+            /* Size Span */
+            SizeSpanHover = document.styleSheets[0].rules[19]
+            SizeSpanHover.style.background = "#60979B"
+        }
+        if (option=="orange"){
+            let shoeImg = document.getElementById('shoeImg')
+            shoeImg.setAttribute('src', 'assets/orangeMelo.png')
+            /* Circle Card */
+            let circleCardHover = document.styleSheets[0].rules[5]
+            circleCardHover.style.background = "#DF3A31"
+            /* Size Span */
+            SizeSpanHover = document.styleSheets[0].rules[19]
+            SizeSpanHover.style.background = "#DF3A31"
+        }
+        if (option=="purple"){
+            let shoeImg = document.getElementById('shoeImg')
+            shoeImg.setAttribute('src', 'assets/purpleMelo.png')
+            /* Circle Card */
+            let circleCardHover = document.styleSheets[0].rules[5]
+            circleCardHover.style.background = "#87399F"
+            /* Size Span */
+            SizeSpanHover = document.styleSheets[0].rules[19]
+            SizeSpanHover.style.background = "#87399F"
+        }
+        if (option=="rickAndMorty"){
+            let shoeImg = document.getElementById('shoeImg')
+            shoeImg.setAttribute('src', 'assets/rickMelo2.png')
+            /* Circle Card */
+            let circleCardHover = document.styleSheets[0].rules[5]
+            circleCardHover.style.background = "#D7F952"
+            /* Size Span */
+            SizeSpanHover = document.styleSheets[0].rules[19]
+            SizeSpanHover.style.background = "#D7F952"
         }
     }
 </script>
